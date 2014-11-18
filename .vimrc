@@ -9,6 +9,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 Bundle 'christoomey/vim-tmux-navigator'
 " All of your Plugins must be added before the following line
@@ -25,7 +26,10 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-colorscheme desert 
+" Note that w.out some terminal wrangling described in the 
+" main solarized repository this will usually look horrible.
+set background=dark
+colorscheme solarized
 
 set backspace=eol,start,indent 
 set whichwrap+=<,>,h,l
