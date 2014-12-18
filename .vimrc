@@ -28,6 +28,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 " Note that w.out some terminal wrangling described in the 
 " main solarized repository this will usually look horrible.
+syntax on
 set background=dark
 colorscheme solarized
 
